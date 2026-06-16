@@ -14,10 +14,6 @@ int main()
         int Alice, Bob, Charlie;
         cin >> Alice >> Bob >> Charlie;
 
-       /*  Alice = 400 / Alice;
-        Bob = 400 / Bob;
-        Charlie = 400 / Charlie; */
-
         if (Alice < Bob)
         {
             if (Alice < Charlie)
