@@ -21,5 +21,6 @@ int main()
 
         cout << a[n - x] - 1 << endl;
     }
+
     return 0;
 }
