@@ -17,16 +17,16 @@ int main()
         if (Alice < Bob)
         {
             if (Alice < Charlie)
-                cout << "ALICE\n";
+                cout << "ALICE" << endl;
             else
-                cout << "CHARLIE\n";
+                cout << "CHARLIE" << endl;
         }
         else
         {
             if (Bob < Charlie)
-                cout << "BOB\n";
+                cout << "BOB" << endl;
             else
-                cout << "CHARLIE\n";
+                cout << "CHARLIE" << endl;
         }
     }
 
