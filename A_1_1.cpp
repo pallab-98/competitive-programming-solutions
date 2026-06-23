@@ -34,7 +34,7 @@ pair<int, int> solve()
         {
             if (s_min[i] == '1' && s_min[i - 1] == '1' && s_min[i + 1] == '1')
             {
-                
+
                 s_min[i] = '0';
                 changed = true;
             }
