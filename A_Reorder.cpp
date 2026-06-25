@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-    int t;
-    cin >> t;
+    int caseTest;
+    cin >> caseTest;
 
-    while (t--) {
+    while (caseTest--) {
         int n;
         long long m;
         cin >> n >> m;
@@ -19,9 +19,9 @@ int main() {
         }
 
         if (sum == m)
-            cout << "YES\n";
+            cout << "YES"<<endl;
         else
-            cout << "NO\n";
+            cout << "NO"<<endl;
     }
 
     return 0;
