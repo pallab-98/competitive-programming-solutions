@@ -1,8 +1,9 @@
-#include<bits/stdc++.h>
+#include <bits/stdc++.h>
 using namespace std;
 
-int main() {
-    
+int main()
+{
+
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
@@ -10,7 +11,8 @@ int main() {
     int caseTest;
     cin >> caseTest;
 
-    while (caseTest--) {
+    while (caseTest--)
+    {
         int n, c0, c1, h;
         cin >> n >> c0 >> c1 >> h;
 
@@ -19,12 +21,15 @@ int main() {
 
         long long ans = 0;
 
-        for (char ch : s) {
-            if (ch == '0') {
+        for (char ch : s)
+        {
+            if (ch == '0')
+
                 ans += min(c0, h + c1);
-            } else {
+
+            else
+
                 ans += min(c1, h + c0);
-            }
         }
 
         cout << ans << endl;
