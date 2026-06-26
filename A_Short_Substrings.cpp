@@ -20,7 +20,6 @@ int main() {
         for (int i = 3; i < b.size(); i += 2) 
             ans += b[i];
     
-
         cout << ans << endl;
     }
 
