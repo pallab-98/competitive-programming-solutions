@@ -1,29 +1,29 @@
-#include <stdio.h>
+#include <iostream>
+#include <string>
+using namespace std;
 
-int main()
-{
+int main() {
     int t;
-    scanf("%d", &t);
+    cin >> t;
 
-    while (t--)
-    {
+    while (t--) {
         int n, c0, c1, h;
-        scanf("%d %d %d %d", &n, &c0, &c1, &h);
+        cin >> n >> c0 >> c1 >> h;
 
-        char s[1005];
-        scanf("%s", s);
+        string s;
+        cin >> s;
 
         long long ans = 0;
 
-        for (int i = 0; i < n; i++)
-        {
-            if (s[i] == '0')
-                ans += (c0 < h + c1) ? c0 : h + c1;
-            else
-                ans += (c1 < h + c0) ? c1 : h + c0;
+        for (char ch : s) {
+            if (ch == '0') {
+                ans += min(c0, h + c1);
+            } else {
+                ans += min(c1, h + c0);
+            }
         }
 
-        printf("%lld\n", ans);
+        cout << ans << endl;
     }
 
     return 0;
