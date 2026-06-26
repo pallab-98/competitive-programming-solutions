@@ -2,8 +2,8 @@
 using namespace std;
 
 int main() {
-    int t;
-    cin >> t;
+    int caseTest;
+    cin >> caseTest;
 
     while (t--) {
         int x, y;
