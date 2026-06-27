@@ -21,7 +21,7 @@ int main() {
         if (mx <= mn * (d + 1))
             cout << "YES"<<endl;
         else
-            cout << "NO\n";
+            cout << "NO"<<endl;
     }
 
     return 0;
