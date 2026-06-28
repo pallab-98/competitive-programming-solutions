@@ -28,7 +28,7 @@ int main()
                     max_rating = r;
             }
         }
-        cout << max_rating << "\n";
+        cout << max_rating << endl;
     }
     return 0;
 }
