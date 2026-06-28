@@ -3,7 +3,7 @@ using namespace std;
 
 int main()
 {
-    // Optimizing I/O operations
+
     ios_base::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
