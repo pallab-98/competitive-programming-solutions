@@ -5,6 +5,7 @@ int main() {
     // Optimizing I/O operations
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
+    cout.tie(nullptr);
 
     int t;
     cin >> t;
