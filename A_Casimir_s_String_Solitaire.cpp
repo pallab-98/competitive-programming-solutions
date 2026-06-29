@@ -30,7 +30,7 @@ int main()
         if (b == a + c)
             cout << "YES" << endl;
         else
-            cout << "NO"<<endl;
+            cout << "NO" << endl;
     }
 
     return 0;
