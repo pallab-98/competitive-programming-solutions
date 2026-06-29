@@ -11,8 +11,7 @@ int main()
     while (caseTest--)
     {
         long long n, s;
-        cin >> n
-         >> s;
+        cin >> n >> s;
         if (s <= n)
             cout << s << endl;
         else
