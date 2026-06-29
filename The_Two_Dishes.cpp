@@ -14,7 +14,7 @@ int main()
         cin >> n
          >> s;
         if (s <= n)
-            cout << s << '\n';
+            cout << s << endl;
         else
             cout << (2 * n - s) << '\n';
     }
