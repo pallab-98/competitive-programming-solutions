@@ -10,7 +10,7 @@ int main() {
     cin >> caseTest;
 
     while (caseTest--) {
-        string s;
+        string str;
         cin >> s;
 
         int a = 0, b = 0, c = 0;
