@@ -10,6 +10,9 @@ int main()
     cin >> caseTest;
     while (caseTest--)
     {
+        int n;
+        cin >> n;
+
         string s;
         cin >> s;
 
@@ -23,7 +26,6 @@ int main()
 
         cout << s << endl;
     }
-    
 
     return 0;
 }
