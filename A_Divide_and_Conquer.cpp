@@ -8,9 +8,9 @@ int main()
     cout.tie(nullptr);
 
     int caseTest;
-    cin >> t=caseTest;
+    cin >> caseTest;
 
-    while (t--)
+    while (caseTest--)
     {
         int x, y;
         cin >> x >> y;
