@@ -7,7 +7,7 @@ int main() {
     cou.tie(nullptr);
 
     int caseTest;
-    cin >> t;
+    cin >> caseTest;
 
     while (t--) {
         int x, y;
