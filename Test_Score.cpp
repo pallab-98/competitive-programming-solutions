@@ -1,5 +1,4 @@
-`#include <bits/stdc++.h>
-using namespace std;
+`#include<bits / stdc++.h> using namespace std;
 int main()
 {
     ios::sync_with_stdio(false);
@@ -13,11 +12,11 @@ int main()
     {
         int N, X, Y;
         cin >> N >> X >> Y;
-        
+
         if (Y % X == 0 && Y / X <= N)
-            cout << "YES"<<endl;
+            cout << "YES" << endl;
         else
-            cout << "NO"<<endl;
+            cout << "NO" << endl;
     }
     return 0;
 }
