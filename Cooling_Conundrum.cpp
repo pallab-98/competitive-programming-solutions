@@ -6,7 +6,7 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
-    
+
     int caseTest;
     cin >> caseTest;
 
@@ -19,7 +19,9 @@ int main()
 
         while (st > end)
         {
-            ans += (st + 9) / 10;
+            ans+=(int)ceil(st/10.0);
+            // ans+=(int)ceil((double)st/10);
+            // ans += (st + 9) / 10;
             st--;
         }
 
