@@ -3,10 +3,14 @@ using namespace std;
 
 int main()
 {
-    string s;
-    cin >> s;
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
 
-    if (s[0] == 'c' || s[3] == 'f')
+    string str;
+    cin >> str;
+
+    if (str[0] == 'c' || str[3] == 'f')
         cout << "Yes" << endl;
     else
         cout << "No" << endl;
