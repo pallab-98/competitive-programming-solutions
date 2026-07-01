@@ -3,20 +3,24 @@ using namespace std;
 
 int main()
 {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+    cout.tie(nullptr);
+    
     int caseTest;
     cin >> caseTest;
 
     while (caseTest--)
     {
-        int X, Y;
-        cin >> X >> Y;
+        int st, end;
+        cin >> st >> end;
 
         int ans = 0;
 
-        while (X > Y)
+        while (st > end)
         {
-            ans += (X + 9) / 10;
-            X--;
+            ans += (st + 9) / 10;
+            st--;
         }
 
         cout << ans << endl;
