@@ -9,9 +9,9 @@ int main()
     int x;
     cin >> x;
     if (x < 100)
-        cout << "YES"<<endl;
+        cout << "YES" << endl;
     else
-        cout << "NO"<<endl;
+        cout << "NO" << endl;
 
     return 0;
 }
