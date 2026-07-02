@@ -9,7 +9,7 @@ int main()
     int x;
     cin >> x;
     if (x < 100)
-        cout << "YES\n";
+        cout << "YES"<<endl;
     else
         cout << "NO\n";
 
