@@ -6,7 +6,7 @@ int main() {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    string s, t;
+    string str, t;
     cin >> s >> t;
 
     int pos = 0;
