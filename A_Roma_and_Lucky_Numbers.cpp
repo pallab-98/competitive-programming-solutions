@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
@@ -11,13 +12,15 @@ int main() {
 
     int ans = 0;
 
-    while (caseTest--) {
+    while (caseTest--)
+    {
         int x;
         cin >> x;
 
         int cnt = 0;
 
-        while (x > 0) {
+        while (x > 0)
+        {
             int digit = x % 10;
             if (digit == 4 || digit == 7)
                 cnt++;
@@ -28,7 +31,7 @@ int main() {
             ans++;
     }
 
-    cout << ans <<endl;
+    cout << ans << endl;
 
     return 0;
 }
