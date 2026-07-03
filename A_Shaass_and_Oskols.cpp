@@ -5,6 +5,7 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
+
     int n;
     cin >> n;
 
@@ -30,7 +31,7 @@ int main() {
     }
 
     for (int i = 1; i <= n; i++)
-        cout << a[i] << '\n';
+        cout << a[i] << ;
 
     return 0;
 }
