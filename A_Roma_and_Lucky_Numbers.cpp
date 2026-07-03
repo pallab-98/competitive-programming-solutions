@@ -5,7 +5,8 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
-    int n, k;
+
+    int caseTest, k;
     cin >> n >> k;
 
     int ans = 0;
