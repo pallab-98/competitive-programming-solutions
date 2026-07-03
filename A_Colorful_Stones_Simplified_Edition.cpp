@@ -14,7 +14,7 @@ int main()
 
     for (char c : t)
     {
-        if (c == s[pos])
+        if (c == str[pos])
             pos++;
     }
 
