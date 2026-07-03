@@ -9,12 +9,12 @@ int main()
     {
         int A, B, S, P;
         cin >> A >> B;
-        
+
         S = A + B;
-        
+
         P = A * B;
-        
-        cout<< S << " " << P << endl;
+
+        cout << S << " " << P << endl;
     }
     return 0;
 }
