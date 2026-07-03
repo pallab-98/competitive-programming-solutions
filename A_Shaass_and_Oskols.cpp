@@ -14,7 +14,7 @@ int main() {
     for (int i = 1; i <= n; i++)
         cin >> a[i];
 
-    int m;
+    int caseTest;
     cin >> m;
 
     while (m--) {
