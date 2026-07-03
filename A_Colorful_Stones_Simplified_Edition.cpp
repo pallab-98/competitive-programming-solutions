@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
@@ -11,12 +12,13 @@ int main() {
 
     int pos = 0;
 
-    for (char c : t) {
+    for (char c : t)
+    {
         if (c == s[pos])
             pos++;
     }
 
-    cout << pos + 1 <<endl;
+    cout << pos + 1 << endl;
 
     return 0;
 }
