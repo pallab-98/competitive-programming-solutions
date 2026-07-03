@@ -7,7 +7,7 @@ int main() {
     cout.tie(nullptr);
 
     int caseTest, k;
-    cin >> n >> k;
+    cin >> caseTest >> k;
 
     int ans = 0;
 
