@@ -28,7 +28,7 @@ int main() {
             ans++;
     }
 
-    cout << ans << '\n';
+    cout << ans <<;
 
     return 0;
 }
