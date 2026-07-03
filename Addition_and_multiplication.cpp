@@ -4,7 +4,7 @@ using namespace std;
 int main()
 {
     int caseTest;
-    cin >> t;
+    cin >> caseTest;
     while (t--)
     {
         int A, B, S, P;
