@@ -16,7 +16,7 @@ int main() {
             pos++;
     }
 
-    cout << pos + 1 << '\n';
+    cout << pos + 1 <<;
 
     return 0;
 }
