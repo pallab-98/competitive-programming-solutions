@@ -15,7 +15,7 @@ int main() {
         cin >> a[i];
 
     int caseTest;
-    cin >> m;
+    cin >> caseTest;
 
     while (m--) {
         int x, y;
