@@ -12,7 +12,7 @@ int main()
 
     int ans = 0;
 
-    while (n--)
+    while (caseTest--)
     {
         int p, q;
         cin >> p >> q;
