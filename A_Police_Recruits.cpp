@@ -7,7 +7,7 @@ int main()
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    int n;
+    int caseTest;
     cin >> n;
 
     int police = 0;
