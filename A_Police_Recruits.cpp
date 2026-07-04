@@ -8,7 +8,7 @@ int main()
     cout.tie(nullptr);
 
     int caseTest;
-    cin >> n;
+    cin >> caseTest;
 
     int police = 0;
     int crime = 0;
