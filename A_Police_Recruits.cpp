@@ -31,7 +31,7 @@ int main()
         
     }
 
-    cout << crime << '\n';
+    cout << crime << endl;
 
     return 0;
 }
