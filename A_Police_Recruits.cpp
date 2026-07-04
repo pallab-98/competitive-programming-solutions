@@ -26,7 +26,6 @@ int main()
                 crime++;
         }
         else
-
             police += x;
     }
 
