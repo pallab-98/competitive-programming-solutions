@@ -13,7 +13,7 @@ int main()
     int police = 0;
     int crime = 0;
 
-    while (n--)
+    while (caseTest--)
     {
         int x;
         cin >> x;
