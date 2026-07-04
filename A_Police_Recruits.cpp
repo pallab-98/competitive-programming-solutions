@@ -26,9 +26,8 @@ int main()
                 crime++;
         }
         else
-        
+
             police += x;
-        
     }
 
     cout << crime << endl;
