@@ -17,7 +17,7 @@ int main()
         ans += min(diff, 10 - diff);
     }
 
-    cout << ans << '\n';
+    cout << ans << endl;
 
     return 0;
 }
