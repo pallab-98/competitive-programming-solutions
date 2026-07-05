@@ -29,7 +29,7 @@ int main()
     {
         if (!bulb[i])
         {
-            cout << "NO\n";
+            cout << "NO"<<endl;
             return 0;
         }
     }
