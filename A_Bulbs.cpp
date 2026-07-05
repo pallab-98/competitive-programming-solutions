@@ -29,10 +29,10 @@ int main()
     {
         if (!bulb[i])
         {
-            cout << "NO"<<endl;
+            cout << "NO" << endl;
             return 0;
         }
     }
 
-    cout << "YES"<<endl;
+    cout << "YES" << endl;
 }
