@@ -6,6 +6,7 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
+
     int n, m;
     cin >> n >> m;
 
@@ -13,7 +14,7 @@ int main()
 
     for (int i = 0; i < n; i++)
     {
-        int x;
+        int caseTest;
         cin >> x;
 
         while (x--)
