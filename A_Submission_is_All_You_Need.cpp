@@ -10,7 +10,7 @@ int main() {
 
     while (caseTest--) {
         int len;
-        cin >> n;
+        cin >> len;
 
         int sum = 0;
         bool hasZero = false;
