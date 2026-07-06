@@ -24,7 +24,7 @@ int main() {
                 hasZero = true;
         }
 
-        cout << sum + (hasZero ? 1 : 0) << '\n';
+        cout << sum + (hasZero ? 1 : 0) << endl;
     }
 
     return 0;
