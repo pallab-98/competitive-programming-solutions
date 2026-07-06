@@ -11,7 +11,7 @@ int main() {
 
     bool ok = false;
 
-    while (n--) {
+    while (caseTest--) {
         string name;
         int before, after;
 
