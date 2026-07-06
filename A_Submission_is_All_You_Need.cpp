@@ -17,7 +17,7 @@ int main()
         int sum = 0;
         bool hasZero = false;
 
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < len; i++)
         {
             int x;
             cin >> x;
