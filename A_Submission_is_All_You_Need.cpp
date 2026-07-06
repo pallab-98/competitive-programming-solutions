@@ -8,7 +8,7 @@ int main() {
     int caseTest;
     cin >> caseTest;
 
-    while (t--) {
+    while (caseTest--) {
         int n;
         cin >> n;
 
