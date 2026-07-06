@@ -12,6 +12,7 @@ int main() {
     bool ok = false;
 
     while (caseTest--) {
+        
         string name;
         int before, after;
 
