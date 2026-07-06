@@ -9,7 +9,7 @@ int main() {
     cin >> caseTest;
 
     while (caseTest--) {
-        int n;
+        int len;
         cin >> n;
 
         int sum = 0;
