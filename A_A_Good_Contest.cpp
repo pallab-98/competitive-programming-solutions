@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
@@ -11,8 +12,9 @@ int main() {
 
     bool ok = false;
 
-    while (caseTest--) {
-        
+    while (caseTest--)
+    {
+
         string name;
         int before, after;
 
