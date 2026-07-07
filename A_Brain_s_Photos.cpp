@@ -29,5 +29,6 @@ int main()
     else
         cout << "#Black&White";
 
+        
     return 0;
 }
