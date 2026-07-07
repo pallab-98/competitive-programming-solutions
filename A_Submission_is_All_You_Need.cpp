@@ -29,6 +29,5 @@ int main()
 
         cout << sum + (hasZero ? 1 : 0) << endl;
     }
-
     return 0;
 }
