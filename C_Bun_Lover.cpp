@@ -5,7 +5,7 @@ int main() {
     int caseTest;
     cin >> caseTest;
 
-    while (T--) {
+    while (caseTest--) {
         long long n;
         cin >> n;
 
