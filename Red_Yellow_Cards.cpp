@@ -11,13 +11,19 @@ int main()
     cin >> caseTest;
     while (caseTest--)
     {
-        int Redcard, Yellowcard;
+        int Redcard, Yellowcard, set = 0;
         cin >> Redcard >> Yellowcard;
-        
-        Yellowcard -= Redcard;
-        int set = Redcard + Yellowcard / 2;
-        cout << set << endl;
-    }
 
-    return 0;
+        if (Yellowcard > Redcard)
+            Yellowcard -= Redcard;
+
+        else
+            Yellowcard = 0;
+
+        set = Redcard + (Yellowcard / 2);
+
+        cout << set << endl;
+
+        
+    }
 }
