@@ -6,28 +6,53 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int caseTest;
-    cin >> caseTest;
+    int t;
+    cin >> t;
 
-    while (caseTest--)
+    while (t--)
     {
-        int len;
-        cin >> len;
+        int n;
+        cin >> n;
 
-        int sum = 0;
-        bool hasZero = false;
+        int cnt0 = 0, cnt1 = 0;
+        int ans = 0;
 
-        for (int i = 0; i < len; i++)
+        for (int i = 0; i < n; i++)
         {
             int x;
             cin >> x;
-            sum += x;
 
             if (x == 0)
-                hasZero = true;
+                cnt0++;
+            else if (x == 1)
+                cnt1++;
+            else
+                ans += x;
         }
 
-        cout << sum + (hasZero ? 1 : 0) << endl;
+        if (cnt0 == 0)
+        {
+
+            ans += cnt1;
+        }
+        else
+        {
+
+            ans += 1;
+            cnt0--;
+
+            if (cnt0 > 0 && cnt1 > 0)
+            {
+                ans += 2;
+                cnt0--;
+                cnt1--;
+            }
+
+            ans += cnt1;
+        }
+
+        cout << ans << "\n";
     }
+
     return 0;
 }
