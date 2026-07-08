@@ -34,7 +34,7 @@ int main()
         if (ok)
             cout << "YES"<<endl;
         else
-            cout << "NO\n";
+            cout << "NO"<<endl;
     }
 
     return 0;
