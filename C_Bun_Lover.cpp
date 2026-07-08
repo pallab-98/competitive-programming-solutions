@@ -3,9 +3,9 @@ using namespace std;
 
 int main() {
     int caseTest;
-    cin >> T;
+    cin >> caseTest;
 
-    while (T--) {
+    while (caseTest--) {
         long long n;
         cin >> n;
 
