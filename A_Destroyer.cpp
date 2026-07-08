@@ -32,7 +32,7 @@ int main()
         }
 
         if (ok)
-            cout << "YES\n";
+            cout << "YES"<<endl;
         else
             cout << "NO\n";
     }
