@@ -20,7 +20,7 @@ int main() {
         if (a[0] == 1)
             cout << "YES\n";
         else
-            cout << "NO\n";
+            cout << "NO";
     }
 
     return 0;
