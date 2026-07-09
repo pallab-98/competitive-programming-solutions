@@ -6,7 +6,7 @@ int main() {
     cin >> len;
 
     string str;
-    cin >> s;
+    cin >> str;
 
     if (n % 2 == 0) {
         for (int i = 0; i < n; i += 2) {
