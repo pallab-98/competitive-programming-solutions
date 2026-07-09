@@ -18,7 +18,7 @@ int main() {
             cin >> a[i];
 
         if (a[0] == 1)
-            cout << "YES\n";
+            cout << "YES"<<endl;
         else
             cout << "NO"<<endl;
     }
