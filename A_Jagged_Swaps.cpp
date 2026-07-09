@@ -17,7 +17,7 @@ int main()
 
         vector<int> a(len);
 
-        for (int i = 0; i < nlen; i++)
+        for (int i = 0; i < len; i++)
             cin >> a[i];
 
         if (a[0] == 1)
