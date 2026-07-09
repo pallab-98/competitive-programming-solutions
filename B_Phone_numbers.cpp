@@ -9,7 +9,7 @@ int main() {
     cin >> str;
 
     if (n % 2 == 0) {
-        for (int i = 0; i < n; i += 2) {
+        for (int i = 0; i < len; i += 2) {
             cout << s[i] << s[i + 1];
             if (i + 2 < n)
                 cout << "-";
