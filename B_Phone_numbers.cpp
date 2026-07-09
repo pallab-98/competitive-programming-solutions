@@ -22,7 +22,7 @@ int main() {
             i += 2;
         }
 
-        cout << s.substr(n - 3);
+        cout << s.substr(len - 3);
     }
 
     return 0;
