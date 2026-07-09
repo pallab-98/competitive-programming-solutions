@@ -5,34 +5,29 @@ int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    cout.tie(nullptr);
 
-    int len;
-    cin >> len;
+    int n;
+    cin >> n;
 
-    string str;
-    cin >> str;
+    string s;
+    cin >> s;
 
-    if (len % 2 == 0)
+    int i = 0;
+
+    while (n - i > 4)
     {
-        for (int i = 0; i < len; i += 2)
-        {
-            cout << str[i] << str[i + 1];
-            if (i + 2 < len)
-                cout << "-";
-        }
+        cout << s[i] << s[i + 1] << "-";
+        i += 2;
+    }
+
+    if (n - i == 4)
+    {
+        cout << s[i] << s[i + 1] << "-";
+        cout << s[i + 2] << s[i + 3];
     }
     else
     {
-        int i = 0;
-
-        while (i < len - 3)
-        {
-            cout << str[i] << str[i + 1] << "-";
-            i += 2;
-        }
-
-        cout << str.substr(len - 3);
+        cout << s.substr(i);
     }
 
     return 0;
