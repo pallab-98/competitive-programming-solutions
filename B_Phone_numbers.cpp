@@ -5,7 +5,7 @@ int main() {
     int len;
     cin >> len;
 
-    string s;
+    string str;
     cin >> s;
 
     if (n % 2 == 0) {
