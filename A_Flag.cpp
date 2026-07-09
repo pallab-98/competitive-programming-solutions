@@ -1,11 +1,12 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
-    
+
     int n, m;
     cin >> n >> m;
 
@@ -14,16 +15,20 @@ int main() {
     for (int i = 0; i < n; i++)
         cin >> flag[i];
 
-    for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
+    {
 
-        for (int j = 1; j < m; j++) {
-            if (flag[i][j] != flag[i][0]) {
+        for (int j = 1; j < m; j++)
+        {
+            if (flag[i][j] != flag[i][0])
+            {
                 cout << "NO";
                 return 0;
             }
         }
 
-        if (i > 0 && flag[i][0] == flag[i - 1][0]) {
+        if (i > 0 && flag[i][0] == flag[i - 1][0])
+        {
             cout << "NO";
             return 0;
         }
