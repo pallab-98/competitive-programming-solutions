@@ -11,7 +11,7 @@ int main() {
     if (n % 2 == 0) {
         for (int i = 0; i < len; i += 2) {
             cout << str[i] << str[i + 1];
-            if (i + 2 < n)
+            if (i + 2 < len)
                 cout << "-";
         }
     } else {
