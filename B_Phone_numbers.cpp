@@ -17,7 +17,7 @@ int main() {
     } else {
         int i = 0;
 
-        while (i < n - 3) {
+        while (i < len - 3) {
             cout << s[i] << s[i + 1] << "-";
             i += 2;
         }
