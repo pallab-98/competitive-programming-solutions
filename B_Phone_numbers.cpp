@@ -18,7 +18,7 @@ int main() {
         int i = 0;
 
         while (i < len - 3) {
-            cout << str[i] << s[i + 1] << "-";
+            cout << str[i] << str[i + 1] << "-";
             i += 2;
         }
 
