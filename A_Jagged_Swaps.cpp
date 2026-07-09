@@ -10,7 +10,7 @@ int main() {
     cin >> caseTest;
 
     while (caseTest--) {
-        int n;
+        int len;
         cin >> n;
 
         vector<int> a(n);
