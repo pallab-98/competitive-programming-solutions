@@ -11,7 +11,7 @@ int main() {
 
     while (caseTest--) {
         int len;
-        cin >> n;
+        cin >> len;
 
         vector<int> a(n);
 
