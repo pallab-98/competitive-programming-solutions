@@ -17,7 +17,7 @@ int main()
         int cnt0 = 0, cnt1 = 0;
         int ans = 0;
 
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < len; i++)
         {
             int x;
             cin >> x;
