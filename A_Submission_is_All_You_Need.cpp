@@ -11,7 +11,7 @@ int main()
 
     while (caseTest--)
     {
-        int n;
+        int len;
         cin >> n;
 
         int cnt0 = 0, cnt1 = 0;
