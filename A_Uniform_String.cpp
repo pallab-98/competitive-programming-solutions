@@ -12,7 +12,7 @@ int main()
 
     while (caseTest--)
     {
-        int n, k;
+        int len, k;
         cin >> n >> k;
 
         for (int i = 0; i < n; i++)
