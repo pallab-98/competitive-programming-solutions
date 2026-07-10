@@ -51,7 +51,7 @@ int main()
             ans += cnt1;
         }
 
-        cout << ans << "\n";
+        cout << ans << endl;
     }
 
     return 0;
