@@ -20,7 +20,7 @@ int main()
             cout << char('a' + (i % k));
         }
 
-        cout << '\n';
+        cout << endl;
     }
 
     return 0;
