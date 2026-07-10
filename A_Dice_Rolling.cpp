@@ -15,7 +15,7 @@ int main()
         int x;
         cin >> x;
 
-        cout << (x + 6) / 7 << '\n';
+        cout << (x + 6) / 7 << endl;
     }
 
     return 0;
