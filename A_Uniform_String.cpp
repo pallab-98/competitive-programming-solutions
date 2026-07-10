@@ -15,7 +15,7 @@ int main()
         int len, k;
         cin >> len >> k;
 
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < len; i++)
         {
             cout << char('a' + (i % k));
         }
