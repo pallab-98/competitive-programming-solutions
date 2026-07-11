@@ -21,7 +21,7 @@ int main()
         else if (sum == 4)
             cout << 2 << endl;
         else
-            cout << 1 << "\n";
+            cout << 1 << endl;
     }
 
     return 0;
