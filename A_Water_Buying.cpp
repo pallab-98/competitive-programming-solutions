@@ -10,7 +10,7 @@ int main()
     int caseTest;
     cin >> caseTest;
 
-    while (q--)
+    while (caseTest--)
     {
         long long n, a, b;
         cin >> n >> a >> b;
