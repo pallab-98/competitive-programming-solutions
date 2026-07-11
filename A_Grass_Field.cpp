@@ -6,7 +6,7 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
 
-    int caset;
+    int caseTest;
     cin >> t;
 
     while (t--)
