@@ -17,7 +17,7 @@ int main()
         int sum = a + b + c + d;
 
         if (sum == 0)
-            cout << 0 << "\n";
+            cout << 0 << endl;
         else if (sum == 4)
             cout << 2 << "\n";
         else
