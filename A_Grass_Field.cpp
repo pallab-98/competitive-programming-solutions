@@ -19,7 +19,7 @@ int main()
         if (sum == 0)
             cout << 0 << endl;
         else if (sum == 4)
-            cout << 2 << "\n";
+            cout << 2 << endl;
         else
             cout << 1 << "\n";
     }
