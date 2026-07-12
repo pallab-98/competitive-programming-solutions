@@ -7,7 +7,7 @@ int main()
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    int n;
+    int len;
     cin >> n;
 
     int pos = 0, neg = 0;
