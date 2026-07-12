@@ -12,7 +12,7 @@ int main()
 
     vector<pair<int, int>> v(n);
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < len; i++)
     {
         cin >> v[i].first >> v[i].second;
     }
