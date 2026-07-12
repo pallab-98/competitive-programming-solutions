@@ -14,7 +14,7 @@ int main()
 
     int left = 0, right = 0;
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < len; i++)
     {
         cin >> a[i];
 
@@ -24,7 +24,7 @@ int main()
             right++;
     }
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < len; i++)
     {
         if (a[i] == 0)
             left--;
@@ -33,7 +33,7 @@ int main()
 
         if (left == 0 || right == 0)
         {
-            cout << i + 1 << '\n';
+            cout << i + 1 << endl;
             break;
         }
     }
