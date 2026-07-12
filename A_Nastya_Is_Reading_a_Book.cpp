@@ -20,7 +20,7 @@ int main()
     int k;
     cin >> k;
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < len; i++)
     {
         if (v[i].first <= k && k <= v[i].second)
         {
