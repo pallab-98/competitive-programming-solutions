@@ -12,7 +12,7 @@ int main()
 
     int pos = 0, neg = 0;
 
-    for (int i = 0; i < n; i++)
+    for (int i = 0; i < len; i++)
     {
         int x;
         cin >> x;
