@@ -3,16 +3,12 @@ using namespace std;
 
 int main()
 {
-    ios::sync_with_stdio(false);
-    cin.tie(nullptr);
-    cout.tie(nullptr);
-
-    int len;
-    cin >> len;
+    int n;
+    cin >> n;
 
     int pos = 0, neg = 0;
 
-    for (int i = 0; i < len; i++)
+    for (int i = 0; i < n; i++)
     {
         int x;
         cin >> x;
@@ -23,7 +19,7 @@ int main()
             neg++;
     }
 
-    int need = (len + 1) / 2;
+    int need = (n + 1) / 2;
 
     if (pos >= need)
         cout << 1;
@@ -31,4 +27,6 @@ int main()
         cout << -1;
     else
         cout << 0;
+
+    return 0;
 }
