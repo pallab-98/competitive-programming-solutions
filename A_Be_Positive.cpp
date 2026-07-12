@@ -26,11 +26,9 @@ int main()
     int need = (len + 1) / 2;
 
     if (pos >= need)
-        cout << 1 << endl;
+        cout << 1;
     else if (neg >= need)
-        cout << -1 << endl;
+        cout << -1;
     else
-        cout << 0 << endl;
-
-    return 0;
+        cout << 0;
 }
