@@ -6,11 +6,11 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
-    
-    int n;
-    cin >> n;
 
-    vector<int> a(n);
+    int len;
+    cin >> len;
+
+    vector<int> a(len);
 
     int left = 0, right = 0;
 
