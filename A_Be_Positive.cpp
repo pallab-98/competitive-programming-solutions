@@ -23,7 +23,7 @@ int main()
             neg++;
     }
 
-    int need = (n + 1) / 2;
+    int need = (len + 1) / 2;
 
     if (pos >= need)
         cout << 1 << endl;
