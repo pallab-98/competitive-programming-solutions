@@ -10,7 +10,7 @@ int main()
     int len;
     cin >> len;
 
-    vector<pair<int, int>> v(n);
+    vector<pair<int, int>> v(len);
 
     for (int i = 0; i < len; i++)
     {
