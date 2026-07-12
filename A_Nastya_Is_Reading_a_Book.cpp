@@ -6,7 +6,7 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
-    
+
     int len;
     cin >> len;
 
@@ -24,7 +24,7 @@ int main()
     {
         if (v[i].first <= k && k <= v[i].second)
         {
-            cout << n - i;
+            cout << len - i;
             return 0;
         }
     }
