@@ -2,7 +2,8 @@
 using namespace std;
 
 int main() {
-    ios::sync_with_stdio(false)
+    ios::sync_with_stdio(false);
+    
     int w1, h1, w2, h2;
     cin >> w1 >> h1 >> w2 >> h2;
 
