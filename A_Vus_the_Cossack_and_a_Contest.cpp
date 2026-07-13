@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
@@ -10,9 +11,9 @@ int main() {
     cin >> n >> m >> k;
 
     if (m >= n && k >= n)
-        cout << "Yes"<<endl;
+        cout << "Yes" << endl;
     else
-        cout << "No"<<endl;
+        cout << "No" << endl;
 
     return 0;
 }
