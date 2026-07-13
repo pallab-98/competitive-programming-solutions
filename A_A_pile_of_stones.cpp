@@ -10,8 +10,8 @@ int main()
     int len;
     cin >> len;
 
-    string s;
-    cin >> s;
+    string str;
+    cin >> str;
 
     int stones = 0;
 
