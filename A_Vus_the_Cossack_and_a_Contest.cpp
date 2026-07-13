@@ -12,7 +12,7 @@ int main() {
     if (m >= n && k >= n)
         cout << "Yes"<<endl;
     else
-        cout << "No\n";
+        cout << "No"<<endl;
 
     return 0;
 }
