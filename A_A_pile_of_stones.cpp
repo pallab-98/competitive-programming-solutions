@@ -15,7 +15,7 @@ int main()
 
     int stones = 0;
 
-    for (char c : s)
+    for (char c : str)
     {
         if (c == '+')
         {
