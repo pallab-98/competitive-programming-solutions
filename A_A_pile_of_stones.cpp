@@ -28,7 +28,7 @@ int main()
         }
     }
 
-    cout << stones << '\n';
+    cout << stones << endl;
 
     return 0;
 }
