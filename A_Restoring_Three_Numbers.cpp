@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-    ios::
+    ios::sync_with_stdio
     int a[4];
 
     for (int i = 0; i < 4; i++)
