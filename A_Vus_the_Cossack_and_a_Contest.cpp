@@ -5,12 +5,12 @@ int main() {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
-    
+
     int n, m, k;
     cin >> n >> m >> k;
 
     if (m >= n && k >= n)
-        cout << "Yes\n";
+        cout << "Yes"<<endl;
     else
         cout << "No\n";
 
