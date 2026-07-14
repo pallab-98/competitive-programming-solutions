@@ -12,7 +12,7 @@ int main() {
         long long n, x;
         cin >> n >> x;
 
-        cout << 2 * x << '\n';
+        cout << 2 * x << endl;
     }
 
     return 0;
