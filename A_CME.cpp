@@ -16,7 +16,7 @@ int main() {
         if (n == 2)
             cout << 2 << endl;
         else if (n % 2 == 0)
-            cout << 0 << '\n';
+            cout << 0 << endl;
         else
             cout << 1 << '\n';
     }
