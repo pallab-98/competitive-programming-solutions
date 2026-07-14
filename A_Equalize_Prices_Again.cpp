@@ -21,7 +21,7 @@ int main() {
             sum += x;
         }
 
-        cout << (sum + n - 1) / n << '\n';
+        cout << (sum + n - 1) / n << endl;
     }
 
     return 0;
