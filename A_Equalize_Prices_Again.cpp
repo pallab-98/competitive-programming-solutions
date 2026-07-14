@@ -9,7 +9,7 @@ int main() {
     int caseTest;
     cin >> caseTest;
 
-    while (q--) {
+    while (caseTest--) {
         int n;
         cin >> n;
 
