@@ -18,9 +18,8 @@ int main()
     for (char c : str)
     {
         if (c == '+')
-        {
             stones++;
-        }
+
         else
         {
             if (stones > 0)
