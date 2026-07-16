@@ -29,7 +29,7 @@ int main() {
             }
         }
 
-        cout << (needTwoTeams ? 2 : 1) << '\n';
+        cout << (needTwoTeams ? 2 : 1) << endl;
     }
 
     return 0;
