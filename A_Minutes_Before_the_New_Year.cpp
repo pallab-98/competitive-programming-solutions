@@ -9,7 +9,7 @@ int main() {
     int caseTest;
     cin >> caseTest;
 
-    while (t--) {
+    while (caseTest--) {
         int h, m;
         cin >> h >> m;
 
