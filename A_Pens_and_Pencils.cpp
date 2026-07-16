@@ -16,9 +16,9 @@ int main() {
         int pencils = (b + d - 1) / d;
 
         if (pens + pencils > k)
-            cout << -1 << '\n';
+            cout << -1 << endl;
         else
-            cout << pens << " " << pencils << '\n';
+            cout << pens << " " << pencils << endl;
     }
 
     return 0;
