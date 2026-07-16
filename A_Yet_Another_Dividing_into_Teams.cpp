@@ -15,7 +15,7 @@ int main() {
 
         vector<int> a(len);
 
-        for (int i = 0; i < n; i++)
+        for (int i = 0; i < len; i++)
             cin >> a[i];
 
         sort(a.begin(), a.end());
