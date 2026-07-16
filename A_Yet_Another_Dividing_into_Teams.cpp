@@ -1,7 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-int main() {
+int main()
+{
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
@@ -9,7 +10,8 @@ int main() {
     int caseTest;
     cin >> caseTest;
 
-    while (caseTest--) {
+    while (caseTest--)
+    {
         int len;
         cin >> len;
 
@@ -22,8 +24,10 @@ int main() {
 
         bool needTwoTeams = false;
 
-        for (int i = 1; i < len; i++) {
-            if (a[i] - a[i - 1] == 1) {
+        for (int i = 1; i < len; i++)
+        {
+            if (a[i] - a[i - 1] == 1)
+            {
                 needTwoTeams = true;
                 break;
             }
