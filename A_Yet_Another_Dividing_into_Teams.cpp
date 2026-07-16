@@ -22,7 +22,7 @@ int main() {
 
         bool needTwoTeams = false;
 
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i < len; i++) {
             if (a[i] - a[i - 1] == 1) {
                 needTwoTeams = true;
                 break;
