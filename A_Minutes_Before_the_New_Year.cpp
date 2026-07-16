@@ -6,7 +6,7 @@ int main() {
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    int case;
+    int caseTest;
     cin >> t;
 
     while (t--) {
