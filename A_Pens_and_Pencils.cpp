@@ -2,6 +2,9 @@
 using namespace std;
 
 int main() {
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
     int t;
     cin >> t;
 
@@ -9,13 +12,13 @@ int main() {
         int a, b, c, d, k;
         cin >> a >> b >> c >> d >> k;
 
-        int pen = (a + c - 1) / c;
-        int pencil = (b + d - 1) / d;
+        int pens = (a + c - 1) / c;
+        int pencils = (b + d - 1) / d;
 
-        if (pen + pencil <= k)
-            cout << pen << " " << pencil << '\n';
-        else
+        if (pens + pencils > k)
             cout << -1 << '\n';
+        else
+            cout << pens << " " << pencils << '\n';
     }
 
     return 0;
