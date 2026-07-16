@@ -13,7 +13,7 @@ int main() {
         int len;
         cin >> len;
 
-        vector<int> a(n);
+        vector<int> a(len);
 
         for (int i = 0; i < n; i++)
             cin >> a[i];
