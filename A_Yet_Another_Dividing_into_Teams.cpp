@@ -7,9 +7,9 @@ int main() {
     cout.tie(nullptr);
 
     int caseTest;
-    cin >> t;
+    cin >> caseTest;
 
-    while (t--) {
+    while (caseTest--) {
         int n;
         cin >> n;
 
