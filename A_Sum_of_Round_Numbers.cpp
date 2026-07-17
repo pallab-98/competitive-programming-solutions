@@ -5,6 +5,7 @@ int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
+    cout.tie(nullptr);
 
     int t;
     cin >> t;
@@ -32,7 +33,7 @@ int main()
         for (int x : ans)
             cout << x << " ";
 
-        cout << "\n";
+        cout << endl;
     }
 
     return 0;
