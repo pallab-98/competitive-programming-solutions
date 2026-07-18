@@ -15,7 +15,7 @@ int main()
         int len;
         cin >> len;
 
-        vector<int> a(len + 1), b(len + 1), tm(n + 1);
+        vector<int> a(len + 1), b(len + 1), tm(len + 1);
 
         for (int i = 1; i <= n; i++)
             cin >> a[i] >> b[i];
