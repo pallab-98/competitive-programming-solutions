@@ -13,7 +13,7 @@ int main()
     while (caseTest--)
     {
         int len;
-        cin >> n;
+        cin >> len;
 
         vector<int> a(n + 1), b(n + 1), tm(n + 1);
 
