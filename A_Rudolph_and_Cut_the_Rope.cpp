@@ -13,12 +13,12 @@ int main()
 
     while (caseTest--)
     {
-        int n;
-        cin >> n;
+        int len;
+        cin >> len;
 
         int ans = 0;
 
-        while (n--)
+        while (len--)
         {
             int a, b;
             cin >> a >> b;
