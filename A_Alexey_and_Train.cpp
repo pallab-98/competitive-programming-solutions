@@ -5,47 +5,40 @@ int main()
 {
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
-    cout.tie(nullptr);
 
-    int caseTest;
-    cin >> caseTest;
+    int t;
+    cin >> t;
 
-    while (caseTest--)
+    while (t--)
     {
-        int len;
-        cin >> len;
+        int n;
+        cin >> n;
 
-        vector<int> a(len + 1), b(len + 1), tm(len + 1);
+        vector<int> a(n + 1), b(n + 1), d(n + 1);
 
-        for (int i = 1; i <= len; i++)
+        for (int i = 1; i <= n; i++)
             cin >> a[i] >> b[i];
 
-        for (int i = 1; i <= len; i++)
-            cin >> tm[i];
+        for (int i = 1; i <= n; i++)
+            cin >> d[i];
 
-        int cur = 0;
+        long long cur = 0;
+        int prevDeparture = 0;
 
-        for (int i = 1; i <= len; i++)
+        for (int i = 1; i <= n; i++)
         {
-            
-            cur += tm[i];
+            cur += (a[i] - prevDeparture) + d[i];
 
-            
-            if (cur < a[i])
-                cur = a[i];
-
-            
-            if (i == len)
+            if (i == n)
             {
-                cout << cur << endl;
+                cout << cur << '\n';
                 break;
             }
 
-            
-            int stay = (b[i] - a[i] + 1) / 2;
-            cur += stay;
+            long long stay = (b[i] - a[i] + 1) / 2;
+            cur = max(cur + stay, (long long)b[i]);
 
-            cur = max(cur, b[i]);
+            prevDeparture = b[i];
         }
     }
 
