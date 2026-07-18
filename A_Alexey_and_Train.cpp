@@ -37,7 +37,7 @@ int main()
             
             if (i == n)
             {
-                cout << cur << '\n';
+                cout << cur << endl;
                 break;
             }
 
