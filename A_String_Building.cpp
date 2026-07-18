@@ -12,7 +12,7 @@ int main()
 
     while (caseTest--)
     {
-        string s;
+        string str;
         cin >> s;
 
         bool ok = true;
