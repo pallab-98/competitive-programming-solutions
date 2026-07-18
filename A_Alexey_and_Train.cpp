@@ -20,7 +20,7 @@ int main()
         for (int i = 1; i <= len; i++)
             cin >> a[i] >> b[i];
 
-        for (int i = 1; i <= n; i++)
+        for (int i = 1; i <= len; i++)
             cin >> tm[i];
 
         int cur = 0;
