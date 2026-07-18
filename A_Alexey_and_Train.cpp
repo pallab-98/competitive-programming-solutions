@@ -17,7 +17,7 @@ int main()
 
         vector<int> a(len + 1), b(len + 1), tm(len + 1);
 
-        for (int i = 1; i <= n; i++)
+        for (int i = 1; i <= len; i++)
             cin >> a[i] >> b[i];
 
         for (int i = 1; i <= n; i++)
