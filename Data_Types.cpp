@@ -6,6 +6,7 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
+
     int a = -5;
     cout << a << endl;
 
@@ -17,4 +18,6 @@ int main()
 
     int arr[4] = {7, 8, 9, 10};
     cout << arr[2];
+
+    retrun 0;
 }
