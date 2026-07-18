@@ -7,15 +7,15 @@ int main()
     cin.tie(nullptr);
     cout.tie(nullptr);
 
-    int caseTest;
-    cin >> caseTest;
+    int t;
+    cin >> t;
 
-    while (caseTest--)
+    while (t--)
     {
         long long n;
         cin >> n;
 
-        cout << 1 - n << " " << n << endl;
+        cout << -(n - 1) << " " << n << '\n';
     }
 
     return 0;
