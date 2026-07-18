@@ -15,7 +15,7 @@ int main()
         long long n;
         cin >> n;
 
-        cout << 1 - n << " " << n << '\n';
+        cout << 1 - n << " " << n << endl;
     }
 
     return 0;
