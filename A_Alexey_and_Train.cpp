@@ -25,7 +25,7 @@ int main()
 
         int cur = 0;
 
-        for (int i = 1; i <= n; i++)
+        for (int i = 1; i <= len; i++)
         {
             
             cur += tm[i];
