@@ -17,22 +17,22 @@ int main()
 
         vector<int> a(len + 1), b(len + 1), d(len + 1);
 
-        for (int i = 1; i <= n; i++)
+        for (int i = 1; i <= len; i++)
             cin >> a[i] >> b[i];
 
-        for (int i = 1; i <= n; i++)
+        for (int i = 1; i <= len; i++)
             cin >> d[i];
 
         long long cur = 0;
         int prevDeparture = 0;
 
-        for (int i = 1; i <= n; i++)
+        for (int i = 1; i <= len; i++)
         {
             cur += (a[i] - prevDeparture) + d[i];
 
-            if (i == n)
+            if (i == len)
             {
-                cout << cur << '\n';
+                cout << cur << endl;
                 break;
             }
 
