@@ -35,7 +35,7 @@ int main()
                 cur = a[i];
 
             
-            if (i == n)
+            if (i == len)
             {
                 cout << cur << endl;
                 break;
