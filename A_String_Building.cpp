@@ -13,7 +13,7 @@ int main()
     while (caseTest--)
     {
         string str;
-        cin >> s;
+        cin >> str;
 
         bool ok = true;
 
@@ -21,7 +21,7 @@ int main()
         {
             int j = i;
 
-            while (j < s.size() && s[j] == s[i])
+            while (j < str.size() && str[j] == str[i])
                 j++;
 
             if (j - i == 1)
@@ -33,7 +33,7 @@ int main()
             i = j;
         }
 
-        cout << (ok ? "YES" : "NO") << '\n';
+        cout << (ok ? "YES" : "NO") << endl;
     }
 
     return 0;

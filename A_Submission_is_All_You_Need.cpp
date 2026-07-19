@@ -32,10 +32,9 @@ int main()
         }
 
         if (cnt0 == 0)
-        {
 
             ans += cnt1;
-        }
+
         else
         {
 
