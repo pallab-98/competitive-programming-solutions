@@ -15,23 +15,23 @@ int main()
         int n, m;
         cin >> n >> m;
 
-        string s;
-        cin >> s;
+        string str;
+        cin >> str;
 
         while (m--)
         {
-            string temp = s;
+            string temp = str;
 
             for (int i = 0; i < n; i++)
             {
-                if (s[i] == '0')
+                if (str[i] == '0')
                 {
                     int cnt = 0;
 
-                    if (i > 0 && s[i - 1] == '1')
+                    if (i > 0 && str[i - 1] == '1')
                         cnt++;
 
-                    if (i < n - 1 && s[i + 1] == '1')
+                    if (i < n - 1 && str[i + 1] == '1')
                         cnt++;
 
                     if (cnt == 1)
@@ -39,13 +39,13 @@ int main()
                 }
             }
 
-            if (temp == s)
+            if (temp == str)
                 break;
 
-            s = temp;
+            str = temp;
         }
 
-        cout << s << '\n';
+        cout << str << endl;
     }
 
     return 0;
