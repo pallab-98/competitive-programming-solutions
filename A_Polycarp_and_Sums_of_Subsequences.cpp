@@ -26,7 +26,7 @@ int main()
         else
             c = b[2];
 
-        cout << a << " " << x << " " << c << "\n";
+        cout << a << " " << x << " " << c << endl;
     }
 
     return 0;
