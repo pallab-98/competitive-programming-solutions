@@ -20,7 +20,7 @@ int main()
         sum += x;
     }
 
-    cout << total - sum << '\n';
+    cout << total - sum << endl;
 
     return 0;
 }
