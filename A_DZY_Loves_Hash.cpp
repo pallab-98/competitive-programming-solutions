@@ -6,7 +6,7 @@ int main()
     ios::sync_with_stdio(false);
     cin.tie(nullptr);
     cout.tie(nullptr);
-    
+
     int p, n;
     cin >> p >> n;
 
@@ -28,7 +28,7 @@ int main()
         bucket[index] = true;
     }
 
-    cout << -1 << '\n';
+    cout << -1 << endl;
 
     return 0;
 }
