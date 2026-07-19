@@ -21,7 +21,7 @@ int main()
 
         if (bucket[index])
         {
-            cout << i << '\n';
+            cout << i << endl;
             return 0;
         }
 
