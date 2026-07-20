@@ -7,7 +7,7 @@ int main() {
     cout.tie(nullptr);
 
     int len, caseTest;
-    cin >> len >> d;
+    cin >> len >> caseTest;
 
     int current = 0;
     int maximum = 0;
