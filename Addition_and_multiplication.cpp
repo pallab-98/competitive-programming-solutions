@@ -3,7 +3,7 @@
 using namespace std;
 int main()
 {
-    ios::
+    ios::sync_with_stdio
     int caseTest;
     cin >> caseTest;
     while (caseTest--)
