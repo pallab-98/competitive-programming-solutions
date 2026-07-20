@@ -7,7 +7,7 @@ int main() {
     cout.tie(nullptr);
 
     int len;
-    cin >> n;
+    cin >> len;
 
     for (int i = 1; i <= n; i++) {
 
