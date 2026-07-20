@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    ios::sync_with_stdio`
     int n, d;
     cin >> n >> d;
 
