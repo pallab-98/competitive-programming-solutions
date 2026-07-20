@@ -14,7 +14,7 @@ int main() {
 
     while (d--) {
         string str;
-        cin >> s;
+        cin >> str;
 
         bool absent = false;
 
