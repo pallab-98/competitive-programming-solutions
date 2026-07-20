@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     int len;
-    cin >> n;
+    cin >> len;
 
     int last = 0;
 
