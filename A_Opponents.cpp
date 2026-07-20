@@ -7,7 +7,7 @@ int main() {
     cout.tie(nullptr);
 
     int len, d;
-    cin >> n >> d;
+    cin >> len >> d;
 
     int current = 0;
     int maximum = 0;
