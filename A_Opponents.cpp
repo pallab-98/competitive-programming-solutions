@@ -12,7 +12,7 @@ int main() {
     int current = 0;
     int maximum = 0;
 
-    while (d--) {
+    while (caseTest--) {
         string str;
         cin >> str;
 
