@@ -16,7 +16,7 @@ int main() {
         else
             cout << "I love";
 
-        if (i == n)
+        if (i == len)
             cout << " it";
         else
             cout << " that ";
