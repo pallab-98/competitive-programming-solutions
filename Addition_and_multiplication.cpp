@@ -3,6 +3,7 @@
 using namespace std;
 int main()
 {
+    ios::
     int caseTest;
     cin >> caseTest;
     while (caseTest--)
