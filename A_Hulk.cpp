@@ -9,7 +9,7 @@ int main() {
     int len;
     cin >> len;
 
-    for (int i = 1; i <= n; i++) {
+    for (int i = 1; i <= len; i++) {
 
         if (i % 2 == 1)
             cout << "I hate";
