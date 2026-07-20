@@ -3,6 +3,7 @@ using namespace std;
 
 int main() {
     ios::sync_with_stdio(false);
+    cin.t
     int len;
     cin >> len;
 
