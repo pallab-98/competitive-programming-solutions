@@ -19,7 +19,7 @@ int main() {
         bool absent = false;
 
         for (int i = 0; i < len; i++) {
-            if (s[i] == '0') {
+            if (str[i] == '0') {
                 absent = true;
                 break;
             }
