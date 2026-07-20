@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    ios::sy
     int n;
     cin >> n;
 
