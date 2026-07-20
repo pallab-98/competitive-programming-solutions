@@ -13,7 +13,7 @@ int main() {
     int maximum = 0;
 
     while (d--) {
-        string s;
+        string str;
         cin >> s;
 
         bool absent = false;
